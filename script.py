@@ -16,3 +16,4 @@ def deleteDirectory(array):
             print("Error - ", name)
             continue
 
+print("1")
