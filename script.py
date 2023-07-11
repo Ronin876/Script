@@ -13,7 +13,5 @@ def deleteDirectory(array):
             i = path + i
             shutil.rmtree(i)
         except OSError as error:
-            print("Error - ", name)
+            print(f"Дирректория пользователя {name} не найдена")
             continue
-
-print("1")
